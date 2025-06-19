@@ -1,0 +1,323 @@
+<html lang="en">
+  <head>
+    <base href="." /><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusuf – Software Engineer</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js" defer></script>
+    </head>
+    <body>
+      <header class="site-header"></header>
+      <nav class="transparent">
+        <div class="container nav-content">
+          
+          <!-- Logo -->
+          <div class="logo" onclick="openPhotoModal()">
+            <img id="profile-pic" src="assets/images/Me1.jpg" alt="Profile" class="profile-image" />
+          </div>
+          
+          <!-- Nav Links + Toggle -->
+          <div style="display: flex; align-items: center; gap: 1.5rem;">
+            <div class="nav-links">
+              <a href="#about">About</a>
+              <a href="#WhatIdo">What I Do</a>
+              <a href="#projects">Projects</a>
+              <a href="#skills">Skills</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
+      
+        </div>
+      </nav>
+      
+    <section id="about" class="about-section">
+      <div>
+        <div class="hero-intro">
+          <h1>Hi there! <br> <span class="highlight-react">I'm Yusuf</span></h1>
+          <p class="intro-summary"></p>
+          <p>I'm an innovative, flexible mobile and web software Engineer with a passion for creating high-performance, user-centered solutions with scalability. 
+            I take care of all stages of the software development cycle — designing, developing, debugging, testing, and maintaining scalable systems that solve real-world problems — 
+            from the initial idea to deployment.
+            I specialize in full-stack development. I’m driven by clean code, seamless user experiences, and business-aligned solutions.
+            I bring a strong combination of technical competencies and team-based approach to every project. If you are looking for someone 
+            who understands the big picture</p>
+            <p class="intro-text">
+              ...and executes the details with accuracy.
+              <br />
+              <img src="assets/images/finger-down.png" alt="Scroll Down" class="pointing-icon" />
+            </p>            
+            <a href="#contact" class="hero-btn">Let's Connect</a>
+        </div>          
+          <div class="tech-stack">
+            <div class="tech-icon floating">
+              <i class="fab fa-html5 fa-3x" style="color: #e34c26;"></i>
+              <span>HTML</span>
+            </div>
+            <div class="tech-icon floating">
+              <i class="fab fa-css3-alt fa-3x" style="color: #1572b6;"></i>
+              <span>CSS</span>
+            </div>
+            <div class="tech-icon floating">
+              <i class="fab fa-js-square fa-3x" style="color: #f7df1e;"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="tech-icon floating">
+              <i class="fab fa-react fa-3x" style="color: #61DBFB;"></i>
+              <span>React</span>
+            </div>
+            <div class="tech-icon floating">
+              <i class="fab fa-python fa-3x" style="color: #306998;"></i>
+              <span>Python</span>
+            </div>
+            <div class="tech-icon floating">
+              <img src="https://cdn.worldvectorlogo.com/logos/flutter-logo.svg" alt="Flutter" />
+              <span>Flutter</span>
+            </div>
+            <div class="tech-icon floating">
+              <img src="https://cdn.worldvectorlogo.com/logos/dart.svg" alt="Dart" />
+              <span>Dart</span>
+            </div>
+            <div class="tech-icon floating">
+              <i class="fas fa-code fa-3x" style="color: #3178c6;"></i>
+              <span>TypeScript</span>
+            </div>
+            <div class="tech-icon floating">
+              <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg" alt="MySQL" height="25" />
+              <span>MySQL</span>
+            </div>
+            <div class="tech-icon floating">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="Tailwind" />
+              <span>Tailwind</span>
+            </div>
+          </div>
+          
+          <div class="tech-icon floating" style="animation-delay: 0.4s">
+            <svg width="50" height="50" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M55 10L10 30V80L55 100L100 80V30L55 10Z" fill="#092e20"/>
+              <path d="M55 20L20 35V75L55 90L90 75V35L55 20Z" fill="#none" stroke="#ffffff" stroke-width="2"/>
+            </svg>
+            <span>Django</span>
+          </div>
+        </div>
+        <button class="cv-trigger">📄 View CV</button>
+      </div>
+    </section>
+
+    <section id="WhatIdo" class="WhatIdo">
+      <div class="container">
+        <h2 class="highlight-react">What I Do</h2>
+        <div class="about-grid">
+          
+          <div class="about-item">
+            <i class="fas fa-pencil-ruler fa-2x highlight-react"></i>
+            <div>
+              <h3>UI/UX & Frontend Development</h3>
+              <p>Skilled in creating modern, user-friendly designs for web and mobile apps using React and Flutter.</p>
+            </div>
+          </div>
+    
+          <div class="about-item">
+            <i class="fas fa-server fa-2x highlight-python"></i>
+            <div>
+              <h3>Backend Development & APIs</h3>
+              <p>Experienced in building robust backends with Django and Django REST Framework, including API integrations.</p>
+            </div>
+          </div>
+    
+          <div class="about-item">
+            <i class="fas fa-mobile-alt fa-2x highlight-flutter"></i>
+            <div>
+              <h3>Mobile App Development</h3>
+              <p>Developed cross-platform apps using Flutter, with seamless user experiences and scalable architecture.</p>
+            </div>
+          </div>
+    
+          <div class="about-item">
+            <i class="fas fa-database fa-2x highlight-mysql"></i>
+            <div>
+              <h3>Database Management</h3>
+              <p>Strong knowledge of MySQL and data modeling. Skilled in querying, optimization, and integration.</p>
+            </div>
+          </div>
+
+          <div class="about-item">
+            <i class="fas fa-cloud fa-2x"></i>
+            <div>
+              <h3>Cloud Web Deployment</h3>
+              <p>
+                Deployed and managed multiple web apps on GCP, handling VM setup, domains, and SSL across shared environments.
+              </p>
+            </div>
+          </div>          
+    
+          <div class="about-item">
+            <i class="fab fa-docker fa-2x"></i>
+            <div>
+              <h3>Deployment & DevOps</h3>
+              <p>Deploying apps using Docker and Docker Compose. Familiar with CI/CD, Nginx, and Linux server configuration.</p>
+            </div>
+          </div>
+    
+          <div class="about-item">
+            <i class="fas fa-tools fa-2x"></i>
+            <div>
+              <h3>Software Maintenance</h3>
+              <p>Capable of managing, debugging, and extending existing software systems for better performance and reliability.</p>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="highlight-react">Featured Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3>E-Commerce Platform</h3>
+            <p>Full-stack e-commerce solution with Django backend and React frontend</p>
+            <p class="highlight-react">Python • Django • React • MySQL</p>
+            <div class="project-links">
+              <!-- <a href="https://your-live-demo-link.com" target="_blank">Live Demo</a> -->
+              <a target="_blank">GitHub</a>
+            </div>
+          </div>
+          </div>
+          <div class="project-card">
+            <h3>Task Management System</h3>
+            <p>Project management tool with real-time updates</p>
+            <p class="highlight-react">React • Django REST </p>
+            <div class="project-links">
+              <!-- <a href="https://your-live-demo-link.com" target="_blank">Live Demo</a> -->
+              <a href="https://github.com/Lekan1/Task-Manager" target="_blank">GitHub</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>StayEase</h3>
+            <p>Hotel Booking and Management Platform with Admin Dashboard, Customer Booking System, and Dynamic Room Listings.</p>
+            <p class="highlight-react">React • Node.js • MongoDB</p>
+            <div class="project-links">
+              <!-- <a href="https://your-live-demo-link.com" target="_blank">Live Demo</a> -->
+              <a href="https://github.com/Lekan1/stayease" target="_blank">GitHub</a>
+            </div>
+          </div>          
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="highlight-react">Technical Skills</h2>
+        <div class="skill-grid">
+          <div class="skill-item">
+            <i class="fab fa-python fa-3x highlight-python"></i>
+            <h3>Backend Development</h3>
+            <p>Python • Django • Django REST • FastAPI • Node</p>
+          </div>
+
+          <div class="skill-item">
+            <i class="fab fa-react fa-3x highlight-react"></i>
+            <h3>Frontend Development</h3>
+            <p>React • JavaScript • TypeScript</p>
+          </div>
+
+          <div class="skill-item">
+            <i class="fas fa-database fa-3x highlight-mysql"></i>
+            <h3>Database Management</h3>
+            <p>MySQL • MongoDB</p>
+          </div>
+
+          <div class="skill-item">
+            <i class="fas fa-cloud fa-3x highlight-gcp"></i>
+            <h3>Cloud Platforms</h3>
+            <p>GCP • Linux Servers • DNS & SSL</p>
+          </div>
+          
+          <div class="skill-item">
+            <i class="fas fa-cogs fa-3x highlight-devops"></i>
+            <h3>DevOps</h3>
+            <p>CI/CD • Docker • Server Automation</p>
+          </div>
+          
+          <div class="skill-item">
+            <i class="fas fa-pencil-ruler fa-3x highlight-design"></i>
+            <h3>Software Design</h3>
+            <p>Architecture • UI/UX • API Planning</p>
+          </div>
+          
+          <div class="skill-item">
+            <i class="fab fa-android fa-3x highlight-android"></i>
+            <h3>Android Development</h3>
+            <p>Kotlin • REST APIs</p>
+          </div>
+          
+          <div class="skill-item">
+            <i class="fas fa-tools fa-3x highlight-maintenance"></i>
+            <h3>Software Maintenance</h3>
+            <p>Bug Fixing • Refactoring • Performance Tuning</p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="highlight-react">Contact Me</h2>
+    
+        <div class="contact-links" style="display: flex; gap: 40px; align-items: center; flex-wrap: wrap; margin-top: 20px;">
+          
+          <!-- Email -->
+          <a href="mailto:abioyeyusuf17@gmail.com" style="text-decoration: none; color: inherit; font-size: 1.2rem; display: flex; align-items: center; gap: 10px;">
+            <i class="fas fa-envelope" style="font-size: 1.8rem;"></i> Email
+          </a>
+    
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/y-abioye" target="_blank" style="text-decoration: none; color: inherit; font-size: 1.2rem; display: flex; align-items: center; gap: 10px;">
+            <i class="fab fa-linkedin" style="font-size: 1.8rem;"></i> LinkedIn
+          </a>
+    
+          <!-- GitHub -->
+          <a href="https://github.com/Lekan1" target="_blank" style="text-decoration: none; color: inherit; font-size: 1.2rem; display: flex; align-items: center; gap: 10px;">
+            <i class="fab fa-github" style="font-size: 1.8rem;"></i> GitHub
+          </a>
+    
+          <!-- Location (now consistent) -->
+          <a href="https://www.google.com/maps/place/Lagos,+Nigeria" target="_blank" style="text-decoration: none; color: inherit; font-size: 1.2rem; display: flex; align-items: center; gap: 10px;">
+            <i class="fas fa-map-marker-alt" style="font-size: 1.8rem;"></i> Lagos, Nigeria
+          </a>
+    
+        </div>
+      </div>
+    </section>      
+     
+    <div class="cv-modal" id="cvModal">
+      <div class="cv-content">
+        <h2>Curriculum Vitae</h2>
+        <p><strong>Name:</strong> Yusuf Abioye</p>
+        <p><strong>Role:</strong> Software Engineer</p>
+        <p><strong>Experience:</strong> 2+ years</p>
+        <p><strong>Stack:</strong> Python, Flutter, React, FastAPI, MySQL...</p>
+        <a href="/assets/Abioye Yusuf Software Engineer.pdf" download class="download-btn">Download CV</a>
+        <button class="cv-close">Close</button>
+      </div>
+    </div>    
+
+    <div id="photo-modal" onclick="closePhotoModal()">
+      <img src="assets/images/Me1.jpg" alt="Yusuf Full Photo" />
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2025 Abioye Yusuf. All rights reserved.</p>
+      </div>
+    </footer>    
+
+    </body>
+    </html>
