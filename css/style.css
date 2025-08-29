@@ -77,10 +77,25 @@ html {
   transform: scale(1.2);
 }
 
+.nav-links {
+  display: flex;
+  flex-wrap: wrap; /* allows links to wrap when screen is small */
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column; /* stack vertically */
+    align-items: center;
+  }
+}
+
   .nav-links a {
     color: var(--text);
     text-decoration: none;
     margin-left: 2rem;
+    margin: 0.5rem 0;
     transition: color 0.3s;
   }
   
