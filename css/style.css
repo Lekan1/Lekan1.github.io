@@ -264,7 +264,7 @@ html {
   .highlight-mysql { color: var(--mysql); }
 
   #about {
-    padding-top: 200px;/
+    padding-top: 200px;/ 
   }
 
  .about-section {
@@ -534,3 +534,31 @@ html {
     color: #ffffff; /* Bright */
     font-weight: 300;
   }
+
+/* ✅ Fixed smaller navbar for mobile */
+@media (max-width: 768px) {
+  nav {
+    padding: 0.6rem 1rem;   /* reduce height */
+    background: rgba(26, 26, 26, 0.95); /* keep solid background */
+  }
+
+  .logo {
+    font-size: 1.3rem; /* smaller logo text */
+  }
+
+  .nav-links {
+    flex-direction: row;   /* keep links side by side */
+    flex-wrap: wrap;       /* allow wrapping if needed */
+    gap: 1rem;
+    justify-content: flex-end;
+  }
+
+  .nav-links a {
+    margin: 0;
+    font-size: 0.9rem; /* smaller font */
+  }
+
+  .hero {
+    margin-top: 65px; /* push content down so text isn't covered */
+  }
+}
