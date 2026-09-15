@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }, observerOptions);
 
   document.querySelectorAll('.project-card, .about-item').forEach(el => {
-    el.classList.add('hidden'); // Initial state
+    el.classList.add('hidden'); 
     observer.observe(el);
   });
 });

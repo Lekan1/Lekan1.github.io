@@ -543,22 +543,22 @@ html {
   }
 
   .logo {
-    font-size: 1.3rem; /* smaller logo text */
+    font-size: 1.3rem; 
   }
 
   .nav-links {
-    flex-direction: row;   /* keep links side by side */
-    flex-wrap: wrap;       /* allow wrapping if needed */
+    flex-direction: row;   
+    flex-wrap: wrap;       
     gap: 1rem;
     justify-content: flex-end;
   }
 
   .nav-links a {
     margin: 0;
-    font-size: 0.9rem; /* smaller font */
+    font-size: 0.9rem;
   }
 
   .hero {
-    margin-top: 65px; /* push content down so text isn't covered */
+    margin-top: 65px; 
   }
 }
